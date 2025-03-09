@@ -1,0 +1,8 @@
+<resources>
+    <string name="title">THỰC HÀNH 01</string>
+    <string name="name">Họ và tên</string>
+    <string name="name_hint">Nhập họ và tên</string>
+    <string name="age">Tuổi</string>
+    <string name="age_hint">Nhập tuổi</string>
+    <string name="check">Kiểm tra</string>
+</resources>
