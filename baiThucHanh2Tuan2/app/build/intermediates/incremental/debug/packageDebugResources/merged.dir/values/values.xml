@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="blue">#2196F3</color>
+    <color name="blue_dark">#1976D2</color>
+    <color name="gray_light">#F5F5F5</color>
+    <color name="light_gray">#D3D3D3</color>
+    <color name="red">#D32F2F</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="add">Thêm</string>
+    <string name="app_name">Hệ thống Quản lý Thư viện</string>
+    <string name="book_list">Danh sách sách</string>
+    <string name="change">Đổi</string>
+    <string name="default_employee_name">Nguyen Van A</string>
+    <string name="employee">Nhân viên</string>
+    <string name="navigation_books">DS Sách</string>
+    <string name="navigation_home">Quản lý</string>
+    <string name="navigation_staff">Nhân viên</string>
+    <style name="Base.Theme.MyApplication" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.MyApplication" parent="Base.Theme.MyApplication"/>
+</resources>
