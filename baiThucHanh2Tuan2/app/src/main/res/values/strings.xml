@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Hệ thống Quản lý Thư viện</string>
+    <string name="employee">Nhân viên</string>
+    <string name="change">Đổi</string>
+    <string name="book_list">Danh sách sách</string>
+    <string name="default_employee_name">Nguyen Van A</string>
+    <string name="add">Thêm</string>
+    <string name="navigation_home">Quản lý</string>
+    <string name="navigation_books">DS Sách</string>
+    <string name="navigation_staff">Nhân viên</string>
+</resources>
