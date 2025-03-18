@@ -1,0 +1,20 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color blue_color
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable logo_uth
+drawable onboarding_1
+drawable onboarding_2
+drawable onboarding_3
+id main
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.Bai2Tuan3
+style Theme.Bai2Tuan3
+xml backup_rules
+xml data_extraction_rules

@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "/Users/quochuy15012005/.gradle/daemon/8.11.1/com.example.bai1tuan3.app-debug-63:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/quochuy15012005/.gradle/daemon/8.11.1/com.example.bai1tuan3.app-main-65:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/quochuy15012005/.gradle/daemon/8.11.1/com.example.bai1tuan3.app-debug-63:/xml_backup_rules.xml.flat",
+        "source": "/Users/quochuy15012005/.gradle/daemon/8.11.1/com.example.bai1tuan3.app-main-65:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/Users/quochuy15012005/.gradle/daemon/8.11.1/com.example.bai1tuan3.app-debug-63:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/quochuy15012005/.gradle/daemon/8.11.1/com.example.bai1tuan3.app-main-65:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/quochuy15012005/.gradle/daemon/8.11.1/com.example.bai1tuan3.app-debug-63:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/quochuy15012005/.gradle/daemon/8.11.1/com.example.bai1tuan3.app-main-65:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/quochuy15012005/.gradle/daemon/8.11.1/com.example.bai1tuan3.app-debug-63:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/quochuy15012005/.gradle/daemon/8.11.1/com.example.bai1tuan3.app-main-65:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/Users/quochuy15012005/.gradle/daemon/8.11.1/com.example.bai1tuan3.app-debug-63:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/quochuy15012005/.gradle/daemon/8.11.1/com.example.bai1tuan3.app-main-65:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/quochuy15012005/.gradle/daemon/8.11.1/com.example.bai1tuan3.app-debug-63:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/quochuy15012005/.gradle/daemon/8.11.1/com.example.bai1tuan3.app-main-65:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/quochuy15012005/.gradle/daemon/8.11.1/com.example.bai1tuan3.app-debug-63:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/quochuy15012005/.gradle/daemon/8.11.1/com.example.bai1tuan3.app-main-65:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/quochuy15012005/.gradle/daemon/8.11.1/com.example.bai1tuan3.app-debug-63:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/quochuy15012005/.gradle/daemon/8.11.1/com.example.bai1tuan3.app-main-65:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/quochuy15012005/.gradle/daemon/8.11.1/com.example.bai1tuan3.app-debug-63:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/quochuy15012005/.gradle/daemon/8.11.1/com.example.bai1tuan3.app-main-65:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/quochuy15012005/.gradle/daemon/8.11.1/com.example.bai1tuan3.app-debug-63:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/quochuy15012005/.gradle/daemon/8.11.1/com.example.bai1tuan3.app-main-65:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/quochuy15012005/.gradle/daemon/8.11.1/com.example.bai1tuan3.app-debug-63:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/quochuy15012005/.gradle/daemon/8.11.1/com.example.bai1tuan3.app-main-65:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/quochuy15012005/.gradle/daemon/8.11.1/com.example.bai1tuan3.app-debug-63:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/Users/quochuy15012005/.gradle/daemon/8.11.1/com.example.bai1tuan3.app-main-65:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/quochuy15012005/.gradle/daemon/8.11.1/com.example.bai1tuan3.app-debug-63:/layout_activity_main.xml.flat",
+        "source": "/Users/quochuy15012005/.gradle/daemon/8.11.1/com.example.bai1tuan3.app-main-65:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/quochuy15012005/.gradle/daemon/8.11.1/com.example.bai1tuan3.app-debug-63:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/quochuy15012005/.gradle/daemon/8.11.1/com.example.bai1tuan3.app-main-65:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/quochuy15012005/.gradle/daemon/8.11.1/com.example.bai1tuan3.app-debug-63:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/quochuy15012005/.gradle/daemon/8.11.1/com.example.bai1tuan3.app-main-65:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.bai1tuan3.app-debug-63:/drawable_compose_logo.jpeg.flat",
+        "source": "com.example.bai1tuan3.app-main-65:/drawable/compose_logo.jpeg"
+    },
+    {
+        "merged": "/Users/quochuy15012005/.gradle/daemon/8.11.1/com.example.bai1tuan3.app-debug-63:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/quochuy15012005/.gradle/daemon/8.11.1/com.example.bai1tuan3.app-main-65:/mipmap-xxxhdpi/ic_launcher.webp"
+    }
+]
