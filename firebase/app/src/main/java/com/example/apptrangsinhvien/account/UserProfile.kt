@@ -132,9 +132,9 @@ fun UserProfile(navController: NavController) {
             ),
             shape = RoundedCornerShape(10.dp), // Độ bo góc
             modifier = Modifier
-                .fillMaxWidth() // Đảm bảo Button chiếm hết chiều rộng
-                .padding(16.dp) // Thêm padding xung quanh Button
-                .height(48.dp) // Thêm chiều cao cố định cho Button
+                .fillMaxWidth()
+                .padding(16.dp)
+                .height(48.dp)
         ) {
             Text("Back", fontSize = 16.sp, fontWeight = FontWeight.Bold) // Văn bản Button
         }
