@@ -1,42 +1,44 @@
 package com.example.tuan4_mvvm.viewmodel
 
+import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
-import kotlinx.coroutines.flow.MutableStateFlow
-import kotlinx.coroutines.flow.StateFlow
-import com.example.tuan4_mvvm.model.TaskItem
+import androidx.lifecycle.viewModelScope
+import kotlinx.coroutines.launch
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.setValue
+import com.example.tuan4_mvvm.model.RetrofitInstance
+import com.example.tuan4_mvvm.model.Task
+class TaskViewModel : ViewModel(){
+    private val apiService = RetrofitInstance.api
 
-class MainViewModel : ViewModel() {
+    var tasks by mutableStateOf<List<Task>>(emptyList())
+        private set
+    var isLoading by mutableStateOf(true)
+        private set
+    var error by mutableStateOf<String?>(null)
+        private set
 
-    private val _uiState = MutableStateFlow(UiState())
-    val uiState: StateFlow<UiState> = _uiState
-
-    // Method to go back to the previous screen
-    fun goBack() {
-        // Logic for going back
+    init {
+        fetchData()
     }
 
-    // Navigate to the Add New screen
-    fun navigateToAddNewScreen() {
-        // Logic to navigate to the Add New screen
-    }
-
-    // Method to navigate between pages (for buttons at the bottom)
-    fun navigateToPage(page: Int) {
-        // Logic to navigate to a specific page
+    private fun fetchData() {
+        viewModelScope.launch {
+            try {
+                isLoading = true
+                val response = apiService.getTasks()
+                if (response.isSuccess) {
+                    tasks = response.data
+                    error = null
+                } else {
+                    error = response.message
+                }
+            } catch (e: Exception) {
+                error = "Lỗi: ${e.message}"
+                e.printStackTrace()
+            }finally {
+                isLoading = false
+            }
+        }
     }
 }
-
-data class UiState(
-    val items: List<TaskItem> = listOf(
-        TaskItem("Complete Android Project", "Finish the UI, integrate API, and write documentation", "blue"),
-        TaskItem("Complete Android Project", "Finish the UI, integrate API, and write documentation", "pink"),
-        TaskItem("Complete Android Project", "Finish the UI, integrate API, and write documentation", "green"),
-        TaskItem("Complete Android Project", "Finish the UI, integrate API, and write documentation", "red")
-    )
-)
-
-data class TaskItem(
-    val title: String,
-    val description: String,
-    val color: String // Used to determine the background color
-)

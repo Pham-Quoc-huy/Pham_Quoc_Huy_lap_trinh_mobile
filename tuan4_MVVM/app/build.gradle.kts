@@ -40,7 +40,13 @@ android {
 }
 
 dependencies {
+    implementation ("androidx.navigation:navigation-compose:2.4.0-beta02")
+    implementation ("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation ("com.squareup.retrofit2:converter-gson:2.3.0")
 
+    implementation ("androidx.compose.runtime:runtime:1.7.8")
+    implementation ("androidx.compose.runtime:runtime-livedata:1.7.8")
+    implementation ("androidx.compose.runtime:runtime-rxjava2:1.7.8")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
